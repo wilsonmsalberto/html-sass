@@ -1,6 +1,6 @@
 # Forked Off of
 
-## <https://github.com/sshikhrakar/Sass-Starter/blob/master/package.json>
+## https://github.com/sshikhrakar/Sass-Starter
 
 ## Getting Started
 
