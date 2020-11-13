@@ -1,0 +1,8 @@
+@use 'reset';
+@use 'normalize';
+@use 'colors';
+@use 'global';
+
+h1 {
+    color: colors.$primary-color;
+}
