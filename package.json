@@ -4,14 +4,13 @@
   "description": "HTML SASS",
   "main": "index.html",
   "scripts": {
-    "start": "concurrently \"npm run watch:html\" \"npm run watch:sass\" \"npm run serve\"",
+    "start": "concurrently \"npm:watch:html\" \"npm:watch:sass\" \"npm:serve\"",
     "build": "npm install && npm run clean:dist && npm run sass && npm run html",
     "serve": "browser-sync start --server \"dist\" --files \"dist\" --port 8081",
     "html": "cpx \"*.html\" dist/",
     "watch:html": "cpx \"*.html\" dist/ --watch",
-    "sass": "sass sass/style.scss dist/css/style.css",
-    "watch:sass": "sass --watch sass/style.scss dist/css/style.css",
-    "clean": "rimraf dist/",
+    "sass": "sass sass:dist/css",
+    "watch:sass": "sass --watch sass:dist/css",
     "clean:dist": "rimraf dist/**/*"
   },
   "dependencies": {
