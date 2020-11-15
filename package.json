@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "concurrently \"npm:watch:html\" \"npm:watch:sass\" \"npm:serve\"",
-    "build": "npm install && npm run clean:dist && npm run sass && npm run html",
+    "build": "npm run clean:dist && npm run sass && npm run html",
     "serve": "browser-sync start --server \"dist\" --files \"dist\" --port 8081",
     "html": "cpx \"*.html\" dist/",
     "watch:html": "cpx \"*.html\" dist/ --watch",
