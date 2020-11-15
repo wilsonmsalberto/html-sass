@@ -15,11 +15,11 @@
     "clean:dist": "rimraf dist/**/*"
   },
   "dependencies": {
-    "autoprefixer": "^10.0.2",
-    "browser-sync": "^2.26.13",
-    "concurrently": "^5.3.0",
-    "cpx": "^1.5.0",
-    "rimraf": "^3.0.2",
-    "sass": "^1.29.0"
+    "autoprefixer": "10.0.2",
+    "browser-sync": "2.26.13",
+    "concurrently": "5.3.0",
+    "cpx2": "3.0.0",
+    "rimraf": "3.0.2",
+    "sass": "1.29.0"
   }
 }
